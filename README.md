@@ -101,6 +101,8 @@ Stojkovic et al. release, the Azure LLM inference trace *2024) which contains th
 Many thanks to the authors these traces for their significant contributions to the open science community. Many thanks to
 the Network Institute at VU Amsterdam and to SURF for providing the infrastructure to collect the Kavier traces.
 
+---
+
 ### 4. License
 This trace is provided under [MIT License](LICENSE.txt). However, the original traces are provided under their own licenses,
 which are available in the original repositories. Please refer to the original repositories for more information on the licenses.
