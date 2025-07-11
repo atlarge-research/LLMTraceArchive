@@ -11,18 +11,18 @@ Inference through Cache-Aware Discrete-Event Simulation`
 
 ---
 
-Due to storage limitation from GitHub, we host the LLM Traces on Zenodo.
+# 0. Link to Zenodo
 
-The LLM Trace Archive is available at [Zenodo](https://zenodo.org/record/15858418).
+The LLM Trace Archive is available at [Zenodo](https://zenodo.org/records/15864776?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjM2MGM3MTMzLTBiMTYtNGQ4OS04MDE0LWE4MmE5NjM3NzI2YiIsImRhdGEiOnt9LCJyYW5kb20iOiJmYzFjZjU1OTVmMzRlNTA4YjI1ODc3OWE5ZDkxN2I3MiJ9.k1a2tTuJi9Na2x5xFxmGOBsBX3pDymhYt4MHGqS6ivigu5NMqgVKURVMv1webH1I3gESBy14mDB25J1RhX0klQ).
 
 # 1. Contents
 
-1. (Marconi-Kavier Enriched Traces)[Link todo Zenodo]
-2. (Kavier Traces)[Link todo Zenodo]
-3. (Marconi Traces)[Link todo Zenodo]
-4. (LMSys-Chat-1M)[Link todo Zenodo]
-5. (BurstGPT)[Link todo Zenodo]
-6. (Azure)[Link todo Zenodo]
+1. Marconi-Kavier Enriched Traces
+2. Kavier Traces
+3. Marconi Traces
+4. LMSys-Chat-1M
+5. BurstGPT
+6. Azure
 
 ---
 
@@ -50,7 +50,7 @@ serving Llama-3-8B, and maintain the default settings.
 We collected traces using [Tracer](https://github.com/atlarge-research/tracer), a utilitarian
 tool part of the thesis, which we used to trace the deployed LLM Ecosystem.
 
-- Kavier source: https://github.com/Radu-Nicolae/On-Simulating-LLM-Ecosystems-under-Inference
+- Source Kavier: https://github.com/Radu-Nicolae/On-Simulating-LLM-Ecosystems-under-Inference
 
 
 ### 2.3 Marconi Traces
@@ -62,7 +62,7 @@ open science community.
 The released traces contain information on the input and output token counts, input and output tokens, session_id, and
 timestamps.
 
-- Marconi traces: https://zenodo.org/records/14970139
+- Source Marconi traces: https://zenodo.org/records/14970139
 
 
 ### 2.4 LMSys-Chat-1M
@@ -85,7 +85,7 @@ request tokens (i.e., prefill tokens), response tokens (i.e., decode tokens), to
 (e.g., conversation log, API log).
 Their trace also reveals failures in the LLM inference process, which are caused by various operational phenomena.
 
-- BurstGPT traces: https://github.com/HPMLL/BurstGPT/releases/tag/v1.1
+- Source BurstGPT traces: https://github.com/HPMLL/BurstGPT/releases/tag/v1.1
 
 
 ### 2.6 Azure
@@ -93,7 +93,7 @@ Their trace also reveals failures in the LLM inference process, which are caused
 Stojkovic et al. release, the Azure LLM inference trace *2024) which contains three fields: timestamp, ContextTokens
 (number of prefill tokens) and GeneratedTokens (number of decode tokens).
 
-- Azure trace: https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md
+- Source Azure trace: https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md
 
 ---
 
