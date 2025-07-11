@@ -52,20 +52,18 @@ tool part of the thesis, which we used to trace the deployed LLM Ecosystem.
 
 - Kavier source: https://github.com/Radu-Nicolae/On-Simulating-LLM-Ecosystems-under-Inference
 
----
 
 ### 2.3 Marconi Traces
 
 We identify Pan et al.'s work ["Marconi: Prefix Caching for the Era of Hybrid LLMs"](https://arxiv.org/abs/2411.19379)
 as a significant contribution to the
-open science community. Many thanks to the authors for adhering to state-of-the-art science practices.
+open science community.
 
 The released traces contain information on the input and output token counts, input and output tokens, session_id, and
 timestamps.
 
 - Marconi traces: https://zenodo.org/records/14970139
 
----
 
 ### 2.4 LMSys-Chat-1M
 
@@ -77,7 +75,6 @@ et al., 2023).
 
 - LMSys article: https://arxiv.org/pdf/2309.11998
 
---- 
 
 ### 2.5 BurstGPT
 
@@ -90,7 +87,6 @@ Their trace also reveals failures in the LLM inference process, which are caused
 
 - BurstGPT traces: https://github.com/HPMLL/BurstGPT/releases/tag/v1.1
 
----
 
 ### 2.6 Azure
 
@@ -98,3 +94,13 @@ Stojkovic et al. release, the Azure LLM inference trace *2024) which contains th
 (number of prefill tokens) and GeneratedTokens (number of decode tokens).
 
 - Azure trace: https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2024.md
+
+---
+
+### 3. Acknowledgements
+Many thanks to the authors these traces for their significant contributions to the open science community. Many thanks to
+the Network Institute at VU Amsterdam and to SURF for providing the infrastructure to collect the Kavier traces.
+
+### 4. License
+This trace is provided under [MIT License](LICENSE.txt). However, the original traces are provided under their own licenses,
+which are available in the original repositories. Please refer to the original repositories for more information on the licenses.
